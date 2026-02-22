@@ -25,7 +25,7 @@ export function HomeSection() {
           {t('home.title')}
         </h1>
         <p className="text-ivory/95 text-2xl sm:text-3xl md:text-4xl mb-2 font-serif">{t('home.date')}</p>
-        <p className="text-ivory/80 text-lg sm:text-xl">{t('home.place')}</p>
+        <p className="text-ivory/80 text-2xl sm:text-3xl md:text-4xl font-serif">{t('home.place')}</p>
         <a
           href="#story"
           className="inline-block mt-10 px-6 py-3 border-2 border-champagne text-champagne rounded-full font-medium hover:bg-champagne hover:text-stone-800 transition-colors"

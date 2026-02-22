@@ -20,13 +20,12 @@ function ProgramDay({
         <div className="absolute top-0 bottom-0 left-7 w-0.5 bg-champagne rtl:left-auto rtl:right-7" aria-hidden />
         <ul className="space-y-10">
           {keys.map((key) => (
-            <li key={key} className="relative flex gap-6 items-start pl-[4.25rem] rtl:pl-0 rtl:pr-[4.25rem]">
-              <span className="absolute left-0 w-14 h-14 rounded-full bg-rose text-white flex items-center justify-center text-base font-medium rtl:left-auto rtl:right-0" aria-hidden>
+            <li key={key} className="relative flex gap-6 items-center pl-[4.25rem] rtl:pl-0 rtl:pr-[4.25rem]">
+              <span className="absolute left-0 top-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-rose text-white flex items-center justify-center text-base font-medium rtl:left-auto rtl:right-0" aria-hidden>
                 {t(`program.${key}.time`)}
               </span>
               <div className="flex-1 min-w-0">
                 <h4 className="font-serif text-xl text-stone-800">{t(`program.${key}.title`)}</h4>
-                <p className="text-stone-500 mt-1">{t(`program.${key}.desc`)}</p>
               </div>
             </li>
           ))}
@@ -42,10 +41,9 @@ export function ProgramSection() {
   return (
     <section id="program" className="py-20 px-4 bg-white">
       <div className="max-w-3xl mx-auto">
-        <h2 className="font-serif text-3xl sm:text-4xl text-stone-800 text-center mb-3">
+        <h2 className="font-serif text-3xl sm:text-4xl text-stone-800 text-center mb-12">
           {t('program.title')}
         </h2>
-        <p className="text-stone-500 text-center mb-12">{t('program.subtitle')}</p>
 
         <ProgramDay dayKey="saturday" keys={programSaturdayKeys} />
         <ProgramDay dayKey="sunday" keys={programSundayKeys} />

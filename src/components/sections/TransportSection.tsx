@@ -22,17 +22,58 @@ export function TransportSection() {
         <p className="text-stone-500 text-center mb-12">{t('transport.subtitle')}</p>
 
         <div className="space-y-10">
-          <div className="p-6 rounded-2xl bg-champagne/30 border border-champagne">
-            <h3 className="font-serif text-xl text-stone-800 mb-2">{t('transport.venue.title')}</h3>
-            <p className="text-stone-600">{t('transport.venue.address')}</p>
-            <a
-              href="https://maps.app.goo.gl/cjAyMyPQCE2QR2F17"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-3 text-rose hover:underline font-medium"
-            >
-              {t('transport.venue.map')}
-            </a>
+          <div className="rounded-2xl overflow-hidden shadow-lg ring-1 ring-stone-200/50 bg-champagne/20 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+              <div className="relative aspect-[3/2] md:aspect-auto md:min-h-[240px] bg-stone-200">
+                <Image
+                  src="/images/venue.jpg"
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  unoptimized
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none'
+                  }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent" aria-hidden />
+                <div className="absolute bottom-4 left-4 right-4 sm:left-6 sm:right-6">
+                  <h3 className="font-serif text-2xl text-white drop-shadow-md">{t('transport.venue.title')}</h3>
+                </div>
+              </div>
+              <div className="flex flex-col min-h-[200px] md:min-h-[240px]">
+                <a
+                  href="https://maps.app.goo.gl/cjAyMyPQCE2QR2F17"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block flex-1 relative focus:outline-none focus:ring-2 focus:ring-rose focus:ring-inset"
+                  aria-label={t('transport.venue.map')}
+                >
+                  <iframe
+                    title={t('transport.venue.map')}
+                    src="https://www.google.com/maps?q=81+Chemin+des+Mas,+30700+Flaux&output=embed"
+                    className="absolute inset-0 w-full h-full border-0"
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
+                </a>
+                <div className="p-4 bg-white/80 border-t border-stone-200/50">
+                  <p className="text-stone-600 text-sm">{t('transport.venue.address')}</p>
+                  <a
+                    href="https://maps.app.goo.gl/cjAyMyPQCE2QR2F17"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 mt-2 text-rose hover:underline font-medium text-sm"
+                  >
+                    {t('transport.venue.map')}
+                    <svg className="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div>

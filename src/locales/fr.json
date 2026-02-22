@@ -13,49 +13,41 @@
   "home": {
     "title": "Marie & Kasra",
     "date": "Samedi 29 août 2026",
-    "place": "81 Chemin des Mas, 30700 Flaux",
+    "place": "Flaux",
     "scroll": "Découvrir"
   },
   "story": {
     "title": "Notre histoire",
-    "subtitle": "Un peu de nous",
     "paragraph1": "Nous nous sommes rencontrés à la fête de la musique 2022, entre les échanges de regards et les pintes de bières, nous avons tout de suite senti que quelque chose de beau commençait. Depuis, chaque jour est une nouvelle aventure. On a appris à se découvrir et à s’aimer, entre les surprises de Marie qui déteste le chocolat et les étranges passions de Kasra, comme son amour inconditionnel pour les JO 2024.",
     "paragraph2": "Après des années de complicité, de voyages et de \"Azizam\" et \"Khoshkel\", le mariage nous a paru comme une évidence. Le 29 août sera l’occasion de célébrer notre amour avec ceux qui comptent le plus pour nous. Merci de faire partie de notre histoire."
   },
   "program": {
     "title": "Programme",
-    "subtitle": "Déroulement des deux jours",
     "saturday": "Samedi",
     "sunday": "Dimanche",
     "cityhall_ceremony": {
       "time": "14h30",
-      "title": "Cérémonie civile",
-      "desc": "Cérémonie civile à la mairie de Flaux."
+      "title": "Cérémonie civile"
     },
     "ceremony": {
       "time": "16h00",
-      "title": "Cérémonie laïque",
-      "desc": "Début de la cérémonie laïque."
+      "title": "Cérémonie laïque"
     },
     "cocktail": {
       "time": "17h30",
-      "title": "Cocktail",
-      "desc": "Apéritif sur la terrasse."
+      "title": "Cocktail"
     },
     "dinner": {
       "time": "20h30",
-      "title": "Dîner",
-      "desc": "Dîner et soirée dans les jardins."
+      "title": "Dîner"
     },
     "party": {
       "time": "23h00",
-      "title": "Soirée",
-      "desc": "Danses et festivités jusqu'au bout de la nuit."
+      "title": "Soirée"
     },
     "brunch": {
       "time": "11h30",
-      "title": "Brunch",
-      "desc": "Brunch sur la terrasse."
+      "title": "Brunch"
     }
   },
   "rsvp": {
@@ -91,7 +83,7 @@
       "hotel3": "Domaine de Panery",
       "hotel4": "Hôtel Le SAINT-GENIÈS"
     },
-    "otherAccommodationIntro": "Vous pouvez également trouver des hébergements dans les villes suivantes qui sont bien touristiques et proposent plusieurs offres de logement :",
+    "otherAccommodationIntro": "Vous pouvez également trouver des hébergements dans les villes suivantes qui proposent plusieurs offres de logement :",
     "otherCity1": "Saint Siffret",
     "otherCity2": "Saint Maximin",
     "otherCity3": "Saint Hippolyte de Montaigu",

@@ -59,10 +59,9 @@ export function StorySection() {
   return (
     <section id="story" className="py-20 px-4 bg-gradient-to-b from-ivory to-champagne/20">
       <div className="max-w-5xl mx-auto">
-        <h2 className="font-serif text-3xl sm:text-4xl text-stone-800 text-center mb-3">
+        <h2 className="font-serif text-3xl sm:text-4xl text-stone-800 text-center mb-12">
           {t('story.title')}
         </h2>
-        <p className="text-stone-500 text-center mb-12">{t('story.subtitle')}</p>
 
         <p className="text-stone-600 text-lg leading-relaxed text-center max-w-2xl mx-auto">
           {t('story.paragraph1')}
