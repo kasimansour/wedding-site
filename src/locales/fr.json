@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "story": "Notre histoire",
+    "storyShort": "Histoire",
+    "program": "Programme",
+    "rsvp": "RSVP",
+    "transport": "Transport et logement",
+    "transportShort": "Transport",
+    "giftList": "Liste de mariage",
+    "language": "Langue"
+  },
+  "home": {
+    "title": "Marie & Kasra",
+    "date": "Samedi 29 août 2026",
+    "place": "81 Chemin des Mas, 30700 Flaux",
+    "scroll": "Découvrir"
+  },
+  "story": {
+    "title": "Notre histoire",
+    "subtitle": "Un peu de nous",
+    "paragraph1": "Nous nous sommes rencontrés à la fête de la musique 2022, entre les échanges de regards et les pintes de bières, nous avons tout de suite senti que quelque chose de beau commençait. Depuis, chaque jour est une nouvelle aventure. On a appris à se découvrir et à s’aimer, entre les surprises de Marie qui déteste le chocolat et les étranges passions de Kasra, comme son amour inconditionnel pour les JO 2024.",
+    "paragraph2": "Après des années de complicité, de voyages et de \"Azizam\" et \"Khoshkel\", le mariage nous a paru comme une évidence. Le 29 août sera l’occasion de célébrer notre amour avec ceux qui comptent le plus pour nous. Merci de faire partie de notre histoire."
+  },
+  "program": {
+    "title": "Programme",
+    "subtitle": "Déroulement des deux jours",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "cityhall_ceremony": {
+      "time": "14h30",
+      "title": "Cérémonie civile",
+      "desc": "Cérémonie civile à la mairie de Flaux."
+    },
+    "ceremony": {
+      "time": "16h00",
+      "title": "Cérémonie laïque",
+      "desc": "Début de la cérémonie laïque."
+    },
+    "cocktail": {
+      "time": "17h30",
+      "title": "Cocktail",
+      "desc": "Apéritif sur la terrasse."
+    },
+    "dinner": {
+      "time": "20h30",
+      "title": "Dîner",
+      "desc": "Dîner et soirée dans les jardins."
+    },
+    "party": {
+      "time": "23h00",
+      "title": "Soirée",
+      "desc": "Danses et festivités jusqu'au bout de la nuit."
+    },
+    "brunch": {
+      "time": "11h30",
+      "title": "Brunch",
+      "desc": "Brunch sur la terrasse."
+    }
+  },
+  "rsvp": {
+    "title": "RSVP",
+    "subtitle": "Merci de nous confirmer votre présence",
+    "deadline": "Avant le 1er mai 2026",
+    "openInNewWindow": "Ouvrir le formulaire dans une nouvelle fenêtre",
+    "name": "Nom(s)",
+    "guests": "Nombre de personnes",
+    "attending": "Je serai présent(e)",
+    "notAttending": "Je ne pourrai pas être présent(e)",
+    "message": "Message (optionnel)",
+    "submit": "Envoyer",
+    "success": "Merci ! Votre réponse a bien été enregistrée.",
+    "error": "Une erreur est survenue. Réessayez plus tard."
+  },
+  "transport": {
+    "title": "Transport et logement",
+    "subtitle": "Pour vous rendre sur place et vous loger",
+    "venue": {
+      "title": "Lieu",
+      "address": "81 Chemin des Mas, 30700 Flaux",
+      "map": "Voir sur la carte"
+    },
+    "transportTitle": "Transport",
+    "citiesIntro": "La ville de Flaux est à 40-45 minutes des villes suivantes :",
+    "city1": "Avignon, à 2h45 de train de Paris Gare de Lyon",
+    "city2": "Nîmes, à 3h de train de Paris Gare de Lyon",
+    "hotels": {
+      "title": "Hôtels à proximité",
+      "hotel1": "Patio De Violette",
+      "hotel2": "Hostellerie et la parenthèse Uzès",
+      "hotel3": "Domaine de Panery",
+      "hotel4": "Hôtel Le SAINT-GENIÈS"
+    },
+    "otherAccommodationIntro": "Vous pouvez également trouver des hébergements dans les villes suivantes qui sont bien touristiques et proposent plusieurs offres de logement :",
+    "otherCity1": "Saint Siffret",
+    "otherCity2": "Saint Maximin",
+    "otherCity3": "Saint Hippolyte de Montaigu",
+    "otherCity4": "Saint Victor des Oules",
+    "otherCity5": "Uzès"
+  },
+  "giftList": {
+    "title": "Liste de mariage",
+    "subtitle": "Votre présence est notre plus beau cadeau.",
+    "intro": "Si vous souhaitez nous faire un cadeau, nous avons mis en place une liste de mariage à retrouver ci-dessous. Merci infiniment ❤️",
+    "button": "Voir la liste de mariage"
+  },
+  "footer": {
+    "love": "Avec amour",
+    "names": "Marie & Kasra"
+  }
+}

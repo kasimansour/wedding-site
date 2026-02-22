@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --champagne: #f7e7ce;
+  --blush: #e8c4c4;
+  --sage: #9caa8a;
+  --gold: #c9a227;
+  --ivory: #fffff0;
+  --rose: #b76e79;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ivory text-stone-800 antialiased;
+}
+
+[dir="rtl"] body {
+  font-family: Tahoma, 'Segoe UI', system-ui, sans-serif;
+}
+
+/* RTL-aware spacing utilities */
+[dir="rtl"] .ms-auto {
+  margin-inline-start: auto;
+  margin-inline-end: 0;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
