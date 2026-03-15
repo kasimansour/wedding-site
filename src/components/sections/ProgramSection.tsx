@@ -2,7 +2,7 @@
 
 import { useT } from '@/context/LocaleContext'
 
-const programSaturdayKeys = ['ceremony', 'cocktail', 'dinner', 'party'] as const
+const programSaturdayKeys = ['cityhall_ceremony', 'ceremony', 'cocktail', 'dinner', 'party'] as const
 const programSundayKeys = ['brunch'] as const
 
 function ProgramDay({
