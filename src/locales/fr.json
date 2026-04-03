@@ -8,6 +8,7 @@
     "transport": "Transport et logement",
     "transportShort": "Transport",
     "giftList": "Liste de mariage",
+    "contact": "Contact",
     "language": "Langue"
   },
   "home": {
@@ -95,6 +96,18 @@
     "subtitle": "Votre présence est notre plus beau cadeau.",
     "intro": "Si vous souhaitez nous faire un cadeau, nous avons mis en place une liste de mariage à retrouver ci-dessous. Merci infiniment ❤️",
     "button": "Voir la liste de mariage"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Pour toute question, n'hésitez pas à nous contacter",
+    "mariePhone": "06 80 25 16 55",
+    "kasraPhone": "06 62 47 93 03",
+    "marieEmail": "marieroyer2307@gmail.com",
+    "kasraEmail": "kasramansouri94@gmail.com",
+    "marieName": "Marie",
+    "kasraName": "Kasra",
+    "addressTitle": "Adresse postale",
+    "address": "18 Rue Caulaincourt, 75018 Paris"
   },
   "footer": {
     "love": "Avec amour",

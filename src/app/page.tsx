@@ -4,6 +4,7 @@ import { ProgramSection } from '@/components/sections/ProgramSection'
 import { RsvpSection } from '@/components/sections/RsvpSection'
 import { TransportSection } from '@/components/sections/TransportSection'
 import { GiftListSection } from '@/components/sections/GiftListSection'
+import { ContactSection } from '@/components/sections/ContactSection'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <RsvpSection />
       <TransportSection />
       <GiftListSection />
+      <ContactSection />
     </>
   )
 }

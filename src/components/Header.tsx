@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useLocale, useT } from '@/context/LocaleContext'
 import type { Locale } from '@/lib/translations'
 
-const sectionIds = ['home', 'story', 'program', 'rsvp', 'transport', 'giftList'] as const
+const sectionIds = ['home', 'story', 'program', 'rsvp', 'transport', 'giftList', 'contact'] as const
 
 export function Header() {
   const t = useT()
