@@ -27,19 +27,19 @@
     "saturday": "Samedi",
     "sunday": "Dimanche",
     "cityhall_ceremony": {
-      "time": "14h30",
+      "time": "15h30",
       "title": "Mariage civil à la mairie"
     },
     "ceremony": {
-      "time": "16h00",
+      "time": "17h00",
       "title": "Cérémonie laïque"
     },
     "cocktail": {
-      "time": "17h30",
+      "time": "18h00",
       "title": "Cocktail"
     },
     "dinner": {
-      "time": "20h30",
+      "time": "21h00",
       "title": "Dîner"
     },
     "party": {
