@@ -77,6 +77,17 @@
     "citiesIntro": "La ville de Flaux est à 40-45 minutes des villes suivantes :",
     "city1": "Avignon, à 2h45 de train de Paris Gare de Lyon",
     "city2": "Nîmes, à 3h de train de Paris Gare de Lyon",
+    "parking": {
+      "title": "Se garer à Flaux",
+      "intro": "Le village est petit : voici les parkings disponibles à proximité de la mairie et de la maison.",
+      "alt": "Carte du village de Flaux indiquant les parkings, la mairie, la maison et la route bloquée à la circulation",
+      "spot1": "Parking mairie (Parc du château) — 12 places",
+      "spot2": "Parking chemin des Mas — 15 places",
+      "spot3": "Parking Archimbelle — 6 places",
+      "spot4": "Parking virage — 3 places",
+      "note": "Le chemin entre la mairie et la maison est bloqué à la circulation automobile : comptez 5 minutes à pied (340 m).",
+      "openImage": "Agrandir la carte"
+    },
     "hotels": {
       "title": "Hôtels à proximité",
       "hotel1": "Patio De Violette",

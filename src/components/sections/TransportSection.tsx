@@ -86,6 +86,35 @@ export function TransportSection() {
           </div>
 
           <div>
+            <h3 className="font-serif text-xl text-stone-800 mb-2">{t('transport.parking.title')}</h3>
+            <p className="text-stone-600">{t('transport.parking.intro')}</p>
+            <ul className="list-disc list-inside mt-2 text-stone-600 space-y-1 rtl:list-inside">
+              <li>{t('transport.parking.spot1')}</li>
+              <li>{t('transport.parking.spot2')}</li>
+              <li>{t('transport.parking.spot3')}</li>
+              <li>{t('transport.parking.spot4')}</li>
+            </ul>
+            <p className="text-stone-600 mt-2">{t('transport.parking.note')}</p>
+            <a
+              href="/images/flaux-parking.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block mt-4 rounded-2xl overflow-hidden shadow-lg ring-1 ring-stone-200/50 focus:outline-none focus:ring-2 focus:ring-rose focus:ring-offset-2"
+              aria-label={t('transport.parking.openImage')}
+            >
+              <Image
+                src="/images/flaux-parking.png"
+                alt={t('transport.parking.alt')}
+                width={1980}
+                height={1104}
+                className="w-full h-auto"
+                sizes="(max-width: 896px) 100vw, 896px"
+              />
+            </a>
+            <p className="text-stone-500 text-sm mt-2 text-center">{t('transport.parking.openImage')}</p>
+          </div>
+
+          <div>
             <h3 className="font-serif text-xl text-stone-800 mb-6">{t('transport.hotels.title')}</h3>
             <div className="grid grid-cols-2 gap-4">
               {HOTELS.map(({ image, link, nameKey }) => (
